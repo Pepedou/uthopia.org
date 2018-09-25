@@ -157,3 +157,15 @@ footer {
 .artist:hover p {
     padding-top: 15px;
 }
+
+#contactForm {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+#contactForm > input {
+    display: block;
+    margin: 2px 0;
+}
