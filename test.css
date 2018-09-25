@@ -1,0 +1,23 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto 80px;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+main {
+    background-color: lightcoral;
+}
+
+footer {
+    background-color: aquamarine;
+    grid-column: 1 / span 2; 
+}
