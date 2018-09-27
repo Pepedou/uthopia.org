@@ -51,11 +51,11 @@ table {
 body {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 200;
     line-height: normal;
 }
 
-.main-container {
+.main-grid {
     position: fixed;
     top: 0;
     right: 0;
@@ -100,6 +100,13 @@ nav .item .text {
 nav .item .text:hover {
     font-size: 16px;
     cursor: pointer;
+}
+
+nav .item .active {
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+    padding-bottom: 4px;
 }
 
 main {
@@ -168,4 +175,20 @@ footer {
 #contactForm > input {
     display: block;
     margin: 2px 0;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+strong {
+    font-weight: 300;
 }
